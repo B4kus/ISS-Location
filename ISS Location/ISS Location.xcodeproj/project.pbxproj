@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01F8DA58AF646CA2B586A1C1 /* Pods_ISS_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1E511B64C2A29F957B37D8 /* Pods_ISS_Location.framework */; };
 		D7F7D6F420F8DF6500E5CC70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7D6F320F8DF6500E5CC70 /* AppDelegate.swift */; };
 		D7F7D6F620F8DF6500E5CC70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7D6F520F8DF6500E5CC70 /* ViewController.swift */; };
 		D7F7D6F920F8DF6500E5CC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F7D6F720F8DF6500E5CC70 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F1E511B64C2A29F957B37D8 /* Pods_ISS_Location.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISS_Location.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8866835AE601888949A75AE0 /* Pods-ISS Location.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISS Location.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISS Location/Pods-ISS Location.debug.xcconfig"; sourceTree = "<group>"; };
 		D7F7D6F020F8DF6500E5CC70 /* ISS Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISS Location.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F7D6F320F8DF6500E5CC70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F7D6F520F8DF6500E5CC70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		D7F7D6FA20F8DF6800E5CC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7F7D6FD20F8DF6800E5CC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F7D6FF20F8DF6800E5CC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B441539439E826CEA7C08C /* Pods-ISS Location.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISS Location.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISS Location/Pods-ISS Location.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F8DA58AF646CA2B586A1C1 /* Pods_ISS_Location.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				D7F7D6F220F8DF6500E5CC70 /* ISS Location */,
 				D7F7D6F120F8DF6500E5CC70 /* Products */,
+				F61447B99EB4A0FA8401D824 /* Pods */,
+				DC5328116F267CD7A1392AE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = "ISS Location";
 			sourceTree = "<group>";
 		};
+		DC5328116F267CD7A1392AE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F1E511B64C2A29F957B37D8 /* Pods_ISS_Location.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F61447B99EB4A0FA8401D824 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8866835AE601888949A75AE0 /* Pods-ISS Location.debug.xcconfig */,
+				F6B441539439E826CEA7C08C /* Pods-ISS Location.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7F7D70220F8DF6800E5CC70 /* Build configuration list for PBXNativeTarget "ISS Location" */;
 			buildPhases = (
+				E89367DB727A5A25A4CC63A8 /* [CP] Check Pods Manifest.lock */,
 				D7F7D6EC20F8DF6500E5CC70 /* Sources */,
 				D7F7D6ED20F8DF6500E5CC70 /* Frameworks */,
 				D7F7D6EE20F8DF6500E5CC70 /* Resources */,
+				7C7751CB18B1BE9A24966256 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C7751CB18B1BE9A24966256 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ISS Location/Pods-ISS Location-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISS Location/Pods-ISS Location-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E89367DB727A5A25A4CC63A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISS Location-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D7F7D6EC20F8DF6500E5CC70 /* Sources */ = {
@@ -278,14 +347,12 @@
 		};
 		D7F7D70320F8DF6800E5CC70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8866835AE601888949A75AE0 /* Pods-ISS Location.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "ISS Location/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SzymonSzysz.ISS-Location";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -295,14 +362,12 @@
 		};
 		D7F7D70420F8DF6800E5CC70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B441539439E826CEA7C08C /* Pods-ISS Location.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "ISS Location/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SzymonSzysz.ISS-Location";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
