@@ -13,6 +13,16 @@
 		D7F7D6F920F8DF6500E5CC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F7D6F720F8DF6500E5CC70 /* Main.storyboard */; };
 		D7F7D6FB20F8DF6800E5CC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F7D6FA20F8DF6800E5CC70 /* Assets.xcassets */; };
 		D7F7D6FE20F8DF6800E5CC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F7D6FC20F8DF6800E5CC70 /* LaunchScreen.storyboard */; };
+		D7F7D70D20F8E1B000E5CC70 /* IssPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7D70A20F8E1AF00E5CC70 /* IssPosition.swift */; };
+		D7F7D70E20F8E1B000E5CC70 /* ISSAstronauts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7D70B20F8E1AF00E5CC70 /* ISSAstronauts.swift */; };
+		D7F7D70F20F8E1B000E5CC70 /* ISSLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7D70C20F8E1AF00E5CC70 /* ISSLocation.swift */; };
+		D7F7D71120F8E21400E5CC70 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7D71020F8E21400E5CC70 /* People.swift */; };
+		D7F7D71320F8E33C00E5CC70 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7D71220F8E33C00E5CC70 /* Extensions.swift */; };
+		D7F7D71520F8E36900E5CC70 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7D71420F8E36900E5CC70 /* MainView.swift */; };
+		D7F7D71720FB3AE600E5CC70 /* DownloadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7D71620FB3AE600E5CC70 /* DownloadHandler.swift */; };
+		D7F7D71920FB6EFF00E5CC70 /* CheckIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7D71820FB6EFF00E5CC70 /* CheckIConnection.swift */; };
+		D7F7D71B20FB7BA700E5CC70 /* DateConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7D71A20FB7BA700E5CC70 /* DateConvert.swift */; };
+		D7F7D71D20FB7D1F00E5CC70 /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F7D71C20FB7D1F00E5CC70 /* DataHolder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +35,16 @@
 		D7F7D6FA20F8DF6800E5CC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7F7D6FD20F8DF6800E5CC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F7D6FF20F8DF6800E5CC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F7D70A20F8E1AF00E5CC70 /* IssPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssPosition.swift; sourceTree = "<group>"; };
+		D7F7D70B20F8E1AF00E5CC70 /* ISSAstronauts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISSAstronauts.swift; sourceTree = "<group>"; };
+		D7F7D70C20F8E1AF00E5CC70 /* ISSLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISSLocation.swift; sourceTree = "<group>"; };
+		D7F7D71020F8E21400E5CC70 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		D7F7D71220F8E33C00E5CC70 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D7F7D71420F8E36900E5CC70 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D7F7D71620FB3AE600E5CC70 /* DownloadHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadHandler.swift; sourceTree = "<group>"; };
+		D7F7D71820FB6EFF00E5CC70 /* CheckIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIConnection.swift; sourceTree = "<group>"; };
+		D7F7D71A20FB7BA700E5CC70 /* DateConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConvert.swift; sourceTree = "<group>"; };
+		D7F7D71C20FB7D1F00E5CC70 /* DataHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
 		F6B441539439E826CEA7C08C /* Pods-ISS Location.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISS Location.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISS Location/Pods-ISS Location.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,13 +82,55 @@
 			isa = PBXGroup;
 			children = (
 				D7F7D6F320F8DF6500E5CC70 /* AppDelegate.swift */,
-				D7F7D6F520F8DF6500E5CC70 /* ViewController.swift */,
+				D7F7D70920F8E0FE00E5CC70 /* helper */,
+				D7F7D70820F8E0F300E5CC70 /* model */,
+				D7F7D70720F8E0EE00E5CC70 /* view */,
+				D7F7D70620F8E0DB00E5CC70 /* controller */,
 				D7F7D6F720F8DF6500E5CC70 /* Main.storyboard */,
 				D7F7D6FA20F8DF6800E5CC70 /* Assets.xcassets */,
 				D7F7D6FC20F8DF6800E5CC70 /* LaunchScreen.storyboard */,
 				D7F7D6FF20F8DF6800E5CC70 /* Info.plist */,
 			);
 			path = "ISS Location";
+			sourceTree = "<group>";
+		};
+		D7F7D70620F8E0DB00E5CC70 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7F7D6F520F8DF6500E5CC70 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		D7F7D70720F8E0EE00E5CC70 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D7F7D71420F8E36900E5CC70 /* MainView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D7F7D70820F8E0F300E5CC70 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D7F7D70B20F8E1AF00E5CC70 /* ISSAstronauts.swift */,
+				D7F7D70C20F8E1AF00E5CC70 /* ISSLocation.swift */,
+				D7F7D70A20F8E1AF00E5CC70 /* IssPosition.swift */,
+				D7F7D71020F8E21400E5CC70 /* People.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D7F7D70920F8E0FE00E5CC70 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				D7F7D71220F8E33C00E5CC70 /* Extensions.swift */,
+				D7F7D71620FB3AE600E5CC70 /* DownloadHandler.swift */,
+				D7F7D71A20FB7BA700E5CC70 /* DateConvert.swift */,
+				D7F7D71C20FB7D1F00E5CC70 /* DataHolder.swift */,
+				D7F7D71820FB6EFF00E5CC70 /* CheckIConnection.swift */,
+			);
+			path = helper;
 			sourceTree = "<group>";
 		};
 		DC5328116F267CD7A1392AE3 /* Frameworks */ = {
@@ -204,8 +266,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F7D71B20FB7BA700E5CC70 /* DateConvert.swift in Sources */,
+				D7F7D70F20F8E1B000E5CC70 /* ISSLocation.swift in Sources */,
+				D7F7D71520F8E36900E5CC70 /* MainView.swift in Sources */,
+				D7F7D71720FB3AE600E5CC70 /* DownloadHandler.swift in Sources */,
 				D7F7D6F620F8DF6500E5CC70 /* ViewController.swift in Sources */,
+				D7F7D70E20F8E1B000E5CC70 /* ISSAstronauts.swift in Sources */,
 				D7F7D6F420F8DF6500E5CC70 /* AppDelegate.swift in Sources */,
+				D7F7D71D20FB7D1F00E5CC70 /* DataHolder.swift in Sources */,
+				D7F7D71920FB6EFF00E5CC70 /* CheckIConnection.swift in Sources */,
+				D7F7D71120F8E21400E5CC70 /* People.swift in Sources */,
+				D7F7D70D20F8E1B000E5CC70 /* IssPosition.swift in Sources */,
+				D7F7D71320F8E33C00E5CC70 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +424,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "ISS Location/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SzymonSzysz.ISS-Location";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -367,7 +442,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "ISS Location/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SzymonSzysz.ISS-Location";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
